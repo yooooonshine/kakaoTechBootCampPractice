@@ -77,7 +77,7 @@ function showItem(index, text) {
         + index
         + '><input type="checkbox" onclick="clickCheckBox(event)">'
         + text +
-        '<button onclick="clickDeleteButton(event)">삭제</button></li>';
+        '<button onclick="clickDeleteButton(event)" type="button" class="btn btn-danger"    >삭제</button></li>';
 
     todoList.innerHTML += toDoLi;
 }
